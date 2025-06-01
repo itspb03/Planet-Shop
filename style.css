@@ -1,0 +1,189 @@
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    color:aliceblue;
+}
+
+html,
+body{
+    background-image:url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: rgba(0,0,0,50%);
+            
+}
+
+main{
+    height: calc(100%-110px);
+    width: 100%;
+}
+
+.container-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height:60px;
+    width:auto;
+    margin-right: 100px; ;
+    padding: 5px 10px ;
+    border: solid wheat;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+a{
+    margin-right: 20px;
+    border: 2px solid white ;
+    padding: 0px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.icons i{
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.advertise{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Zeno{
+    display:flex;
+    align-items: center;
+    padding: 10px; 
+      
+}
+
+#msg{
+    font-weight: 100;
+    margin: 0 6px;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    bottom:5%;
+    cursor:none;
+    background: rgba(0,0,0,50%)
+    
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,10%);
+    padding: 5px 10px 5px 10px;  
+    margin-right: 30px; 
+    margin-left: 30px; 
+}
+.info h3{
+    font-weight: bold;
+    font-size: 50px;    
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.products{
+    height:calc(100%-310px);
+    width: 100%;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.planet{
+    height: 370px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(0,0,0,50%);
+    display: inline-block;
+    margin-right: 20px;
+      
+}
+
+.planet:hover{
+   background-color: rgba(0,0,0,100%);
+}
+
+.planet img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 35%;
+    
+}
+
+.planet h3{
+    font-weight: bold;
+    position: absolute;
+    bottom: 35%;
+    padding-left: 10px;
+    text-transform: capitalize;
+
+}
+
+.planet p{
+    position: absolute;
+    bottom: 15%;
+    padding-left: 10px;
+    
+    
+
+}
+
+.buy{
+    position: absolute;
+    font-weight: bold;
+    border: 1px solid wheat;
+    padding: 0 10px;
+    border-radius: 10px;
+    bottom: 5%;
+    margin-left: 10px;
+}
+
+.buy:hover{
+    background-color: white;
+    color: black;
+
+}
